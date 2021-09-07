@@ -7,7 +7,7 @@ class Calcular:
         self.__dificuldade: int = dificuldade
         self.__valor1: int = self._gerar_valor
         self.__valor2: int = self._gerar_valor
-        # 1 = somar, 2 = diminuir, 3 = multiplicar
+        # 1 = somar, 2 = diminuir, 3 = multiplicar # 4 = dividir
         self.__operacao: int = randint(1, 4)
         self.__resultado: float = self._gerar_resultado
 
